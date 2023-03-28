@@ -14,6 +14,11 @@
   </head>
   <body>
     <header>
+      <h1>ethanKlukkert</h1>
+      <a href="#about" id="about-link">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
       <a
         class="resume"
         href="/Ethan_Klukkert_Software_Developer_RESUME (1).pdf"
@@ -32,9 +37,9 @@
           ><span class="jump">e</span><span class="jump">r</span
           ><span class="jump">t</span>
         </h1>
-        <span class="title__subtitle">Software Developer</span>
+        <span class="title__subtitle" id="subtitle">Software Developer</span>
       </div>
-      <section class="about">
+      <section class="about" id="about">
         <h1 class="section_title">About</h1>
         <p class="description">
           I am a <span class="emphasized_word">Software Developer</span> who
@@ -50,7 +55,7 @@
         </p>
       </section>
       <section class="projects">
-        <h1 class="section_title" style="margin-left: auto">
+        <h1 class="section_title" style="margin-left: auto" id="experience">
           Demonstrated Experience
         </h1>
         <p class="description">
@@ -61,17 +66,15 @@
           <span class="emphasized_word">projects</span>, I can bring the best
           solution to your software challenges.
         </p>
-        <section class="portfolio_projects">
+        <section class="portfolio_projects" id="projects">
           <h1 class="section_title">Projects</h1>
           <section id="first_project" class="project">
             <h1 class="project_title">News App</h1>
             <div class="inline_project">
               <div class="project_description">
-                Fullstack App with
-                <span class="emphasized_word"
-                  >user authentication, data storage, and RESTful API</span
-                >
-                requests to get the latest news by category and search.
+                News website that retrieves and displays the latest news stories
+                and articles. Users can also log in and track their history of
+                viewing articles.
                 <ul class="project_technologies">
                   <li>HTML, CSS, JavaScript</li>
                   <li>React.js</li>
@@ -95,13 +98,10 @@
             <h1 class="project_title">Contract Manager</h1>
             <div class="inline_project">
               <div class="project_description">
-                Fullstack App with
-                <span class="emphasized_word"
-                  >user authentication, data storage, weather and Google Maps
-                  RESTful API</span
-                >
-                to manage contracts and projects for general contractors or any
-                on-site manager.
+                Complex work order manager that allows users to log in and track
+                project progress. Create jobs, put notes, create inspections and
+                estimates, and more with a fully responsive full stack
+                application.
                 <ul class="project_technologies">
                   <li>HTML/CSS</li>
                   <li>TypeScript</li>
@@ -109,7 +109,7 @@
                   <li>React.js</li>
                   <li>React Transition Group (animations)</li>
                   <li>Firebase - Firestore Database</li>
-                  <li>Google Maps API</li>
+                  <li>Google Maps API, Open Weather API</li>
                   <li>CSS Grid, CSS Flexbox, CSS Modules</li>
                 </ul>
               </div>
@@ -129,7 +129,7 @@
               Here you find many more projects I have worked on in the past.
             </p>
           </section>
-          <section class="cta">
+          <section class="cta" id="contact">
             <h1 class="section_title contact">Let's Connect</h1>
             <p class="description">I am actively looking for opportunities.</p>
           </section>
